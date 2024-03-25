@@ -1,0 +1,184 @@
+[
+  {
+    "model": "raterapi.game",
+    "pk": 1,
+    "fields": {
+      "user_id": 1,
+      "title": "Arthur's Revenge",
+      "designer": "Hasbro",
+      "year": 1982,
+      "number_of_players": 4,
+      "play_time": 7200,
+      "age": "18+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 2,
+    "fields": {
+      "user_id": 2,
+      "title": "Monopoly",
+      "designer": "Hasbro",
+      "year": 1935,
+      "number_of_players": 4,
+      "play_time": 7200,
+      "age": "8+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 3,
+    "fields": {
+      "user_id": 3,
+      "title": "Settlers of Catan",
+      "designer": "Klaus Teuber",
+      "year": 1995,
+      "number_of_players": 4,
+      "play_time": 5400,
+      "age": "10+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 4,
+    "fields": {
+      "user_id": 4,
+      "title": "Ticket to Ride",
+      "designer": "Alan R. Moon",
+      "year": 2004,
+      "number_of_players": 4,
+      "play_time": 3600,
+      "age": "8+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 5,
+    "fields": {
+      "user_id": 5,
+      "title": "Codenames",
+      "designer": "Vlaada Chvátil",
+      "year": 2015,
+      "number_of_players": 6,
+      "play_time": 1800,
+      "age": "14+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 6,
+    "fields": {
+      "user_id": 6,
+      "title": "Pandemic",
+      "designer": "Matt Leacock",
+      "year": 2008,
+      "number_of_players": 4,
+      "play_time": 3600,
+      "age": "10+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 7,
+    "fields": {
+      "user_id": 1,
+      "title": "Carcassonne",
+      "designer": "Klaus-Jürgen Wrede",
+      "year": 2000,
+      "number_of_players": 2,
+      "play_time": 2700,
+      "age": "7+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 8,
+    "fields": {
+      "user_id": 2,
+      "title": "Azul",
+      "designer": "Michael Kiesling",
+      "year": 2017,
+      "number_of_players": 4,
+      "play_time": 2400,
+      "age": "8+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 9,
+    "fields": {
+      "user_id": 3,
+      "title": "Splendor",
+      "designer": "Marc André",
+      "year": 2014,
+      "number_of_players": 4,
+      "play_time": 1800,
+      "age": "10+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 10,
+    "fields": {
+      "user_id": 4,
+      "title": "7 Wonders",
+      "designer": "Antoine Bauza",
+      "year": 2010,
+      "number_of_players": 3,
+      "play_time": 2400,
+      "age": "10+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 11,
+    "fields": {
+      "user_id": 5,
+      "title": "Terraforming Mars",
+      "designer": "Jacob Fryxelius",
+      "year": 2016,
+      "number_of_players": 5,
+      "play_time": 12000,
+      "age": "12+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 12,
+    "fields": {
+      "user_id": 6,
+      "title": "Gloomhaven",
+      "designer": "Isaac Childres",
+      "year": 2017,
+      "number_of_players": 4,
+      "play_time": 15000,
+      "age": "14+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 13,
+    "fields": {
+      "user_id": 1,
+      "title": "Scythe",
+      "designer": "Jamey Stegmaier",
+      "year": 2016,
+      "number_of_players": 5,
+      "play_time": 9000,
+      "age": "14+"
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 14,
+    "fields": {
+      "user_id": 2,
+      "title": "Wingspan",
+      "designer": "Elizabeth Hargrave",
+      "year": 2019,
+      "number_of_players": 5,
+      "play_time": 9000,
+      "age": "14+"
+    }
+  }
+]
