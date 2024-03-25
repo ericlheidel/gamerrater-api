@@ -31,3 +31,21 @@ class GameViewSet(viewsets.ViewSet):
         games = Game.objects.all()
         serializer = GameSerializer(games, many=True, context={"request": request})
         return Response(serializer.data)
+
+    def retrieve(self, request, pk=None):
+        try:
+            game = Game.objects.get(pk=pk)
+            serializer = GameSerializer(game, context={"request": request})
+            return Response(serializer.data)
+
+        except Game.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+
+    def create(self, request, pk=None):
+        pass
+
+    def update(self, request, pk=None):
+        pass
+
+    def destroy(self, request, pk=None):
+        pass
